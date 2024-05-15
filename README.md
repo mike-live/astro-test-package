@@ -44,7 +44,7 @@ git commit -m "Commit message"
 ```
 6. Показать историю коммитов
 ```cmd
-git log
+git log DFHSETYSRYH
 ```
 
 
