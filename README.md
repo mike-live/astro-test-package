@@ -48,7 +48,4 @@ git commit -m "Commit message"
   ```
 
 
-
-
-
 ### How to use github
