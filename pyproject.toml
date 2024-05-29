@@ -10,3 +10,7 @@ requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3"
 ]
+
+[project.urls]
+Homepage = "https://github.com/mike-live/astro-test-package"
+Issues = "https://github.com/mike-live/astro-test-package/issues"
