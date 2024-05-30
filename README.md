@@ -53,18 +53,20 @@ git commit -m "Commit message"
 1. Зарегистрироваться на github.com
 2. Настроить двухфакторную аутентификацию
 3. Установить ssh-клиент на ваш компьютер
-ссылка
+[https://github.com/PowerShell/Win32-OpenSSH/releases](https://github.com/PowerShell/Win32-OpenSSH/releases)
 4. Создать ssh-ключ для доступа к Github.
 - Для этого выполнить команду в терминале, в котором доступен ssh-keygen. Например в VSCode Terminal:
 ```cmd
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ``` 
-- Он предложит указать путь для сохранения вашего ssh-ключа. Если хотите оставить путь по умолчанию, то запонмите путь, который он написал и нажмите enter.
+- Он предложит указать путь для сохранения вашего ssh-ключа. Если хотите оставить путь по умолчанию, то запомните путь, который он написал и нажмите enter.
 ```cmd
 > Enter file in which to save the key (c:\Users\User\.ssh\id_ALGORITHM)
 ```
 - Затем он предложит ввести passphrase. Это пароль, который защищает ваш ключ локально от прямого копирования. (Не используйте пустые пароли). Парольную фразу он спросит дважды. Если они совпали, то он создаст ключ, иначе запросит ещё раз.
+```cmd
 > Enter passphrase (empty for no passphrase): [Type a passphrase]
+```
 5. После создания ключа у вас будет 2 файла: 
 - приватный ключ (Например с названием id_ed25519)
 - публичный ключ (Например с названием id_ed25519.pub)
@@ -103,6 +105,11 @@ git config --global user.email "ivanov@example.com"
 git remote add origin <URL>
 ```
 
+Например для добавления этого репозитория команда выглядит так:
+```cmd
+git remote add origin git@github.com:mike-live/astro-test-package.git
+```
+
 ### Отправляем изменения на github
 В папке с репозиторием после того как сделали нужные коммиты и хотите их выгрузить на github, необходимо выполнить команду:
 ```cmd
@@ -110,4 +117,6 @@ git push origin
 ```
 
 # Как выгрузить package на PyPI
-Подробно по ссылке:
+Подробно по ссылке: [https://packaging.python.org/en/latest/tutorials/packaging-projects/](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+PyPI: [https://pypi.org](https://pypi.org)
