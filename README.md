@@ -105,7 +105,7 @@ git config --global user.email "ivanov@example.com"
 git remote add origin <URL>
 ```
 
-Например для добавления этого репозитория команда выглядит так:
+Например, для добавления этого репозитория команда выглядит так:
 ```cmd
 git remote add origin git@github.com:mike-live/astro-test-package.git
 ```
