@@ -55,7 +55,7 @@ git commit -m "Commit message"
 3. Установить ssh-клиент на ваш компьютер
 [https://github.com/PowerShell/Win32-OpenSSH/releases](https://github.com/PowerShell/Win32-OpenSSH/releases)
 4. Создать ssh-ключ для доступа к Github. (Подробная инструкция тут [https://docs.github.com/en/authentication/connecting-to-github-with-ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh))
-- Для этого выполнить команду в терминале, в котором доступен ssh-keygen. Например в VSCode Terminal:
+- Для этого выполнить команду в терминале, в котором доступен ssh-keygen. Например, в VSCode Terminal:
 ```cmd
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ``` 
@@ -122,3 +122,6 @@ git push origin
 Подробно по ссылке: [https://packaging.python.org/en/latest/tutorials/packaging-projects/](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 
 PyPI: [https://pypi.org](https://pypi.org)
+
+#### Опечатки, пожелания
+Если увидели опечатки или что-то не работает, то вы можете создать Issue к этому репозиторию.
