@@ -54,6 +54,7 @@ git commit -m "Commit message"
 2. Настроить двухфакторную аутентификацию
 3. Установить ssh-клиент на ваш компьютер
 [https://github.com/PowerShell/Win32-OpenSSH/releases](https://github.com/PowerShell/Win32-OpenSSH/releases)
+Используйте файл `OpenSSH-Win64-v9.5.0.msi`
 4. Создать ssh-ключ для доступа к Github. (Подробная инструкция тут [https://docs.github.com/en/authentication/connecting-to-github-with-ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh))
 - Для этого выполнить команду в терминале, в котором доступен ssh-keygen. Например, в VSCode Terminal:
 ```cmd
